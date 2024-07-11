@@ -44,18 +44,18 @@ store_data(data): Converts the processed data into a DataFrame and stores it in 
 ---
 
 **Technologies Used**
-Python: Core programming language used for development.
-Streamlit: Web application framework used for building the user interface.
-EasyOCR: Optical Character Recognition library used for extracting text from images.
-Pandas: Data manipulation library used for processing and organizing extracted information.
-SQLAlchemy: SQL toolkit and Object-Relational Mapping (ORM) library used for database operations.
-PostgreSQL: Relational database management system used for storing business card information.
+* Python: Core programming language used for development.
+* Streamlit: Web application framework used for building the user interface.
+* EasyOCR: Optical Character Recognition library used for extracting text from images.
+* Pandas: Data manipulation library used for processing and organizing extracted information.
+* SQLAlchemy: SQL toolkit and Object-Relational Mapping (ORM) library used for database operations.
+* PostgreSQL: Relational database management system used for storing business card information.
 
 ---
 
 > **Summary of Functionality**
-* Extracting Information: Uses OCR to extract text from business card images.
-* Processing Data: Categorizes and processes the extracted text.
-* Database Operations: Stores, modifies, and deletes business card details in a PostgreSQL database.
-* User Interface: Provides a user-friendly interface for interacting with the app, including file upload, data display, and database management.
-* This is designed to help users manage business card information efficiently, leveraging OCR for text extraction and Streamlit for a seamless web interface experience.
+> * Extracting Information: Uses OCR to extract text from business card images.
+> * Processing Data: Categorizes and processes the extracted text.
+> * Database Operations: Stores, modifies, and deletes business card details in a PostgreSQL database.
+> * User Interface: Provides a user-friendly interface for interacting with the app, including file upload, data display, and database management.
+> * This is designed to help users manage business card information efficiently, leveraging OCR for text extraction and Streamlit for a seamless web interface experience.
